@@ -1,0 +1,31 @@
+{
+  "name": "@elumixor/di",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "index.ts",
+  "type": "module",
+  "description": "Very simple and lightweight Dependency Injection library for TypeScript",
+  "files": [
+    "./dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elumixor/di"
+  },
+  "scripts": {
+    "build": "bun run build:bundle && bun run build:declaration",
+    "build:bundle": "bun build ./src/index.ts --outdir ./dist",
+    "build:declaration": "tsc --project tsconfig.json",
+    "lint": "bun run eslint --ext .ts .",
+    "release:patch": "npm version patch -m \"Release v%s\" && git push --tags",
+    "release:minor": "npm version minor -m \"Release v%s\" && git push --tags",
+    "release:major": "npm version major -m \"Release v%s\" && git push --tags"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elumixor/eslint": "^0.2.0"
+  }
+}
