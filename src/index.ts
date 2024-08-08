@@ -1,4 +1,1 @@
-export function hello() {
-    // eslint-disable-next-line no-console
-    console.log("hi");
-}
+export * from "./di";
