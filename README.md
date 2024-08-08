@@ -1,15 +1,7 @@
-# di
+# Dependency Injection
 
-To install dependencies:
+[![Build](https://github.com/elumixor/di/actions/workflows/build.yml/badge.svg)](https://github.com/elumixor/di/actions/workflows/build.yml)
 
-```bash
-bun install
-```
+[![Node version](https://img.shields.io/node/v/@elumixor/di.svg?style=flat)](https://nodejs.org/download/)
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.21. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Very minimal and simple package for dependency injection in javascript/typescript.
