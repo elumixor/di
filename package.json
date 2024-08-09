@@ -3,8 +3,6 @@
   "version": "0.2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "module": "index.ts",
-  "type": "module",
   "description": "Very simple and lightweight Dependency Injection library for TypeScript",
   "files": [
     "./dist"
