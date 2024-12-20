@@ -64,6 +64,8 @@ function injectable<TBase extends AnyConstructor>(Base: TBase): TBase {
         }
     }
 
+    Reflect.defineProperty(Wrapper, "name", { value: Base.name });
+
     return Wrapper;
 }
 
