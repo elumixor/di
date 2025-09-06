@@ -22,10 +22,8 @@
     "release:minor": "npm version minor -m \"Release v%s\" && git push --tags",
     "release:major": "npm version major -m \"Release v%s\" && git push --tags"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
+  "devDependencies": {
+    "typescript": "^5.0.0",
     "@elumixor/eslint": "^0.2.0"
   }
 }
